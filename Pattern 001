@@ -1,0 +1,12 @@
+# Pattern 001
+// From what I currently understand, it is critical for you know that I am using Python for the following script.
+
+import turtle
+
+my_turtle = turtle.Turtle()
+
+moving = 1
+while moving < 90:
+    my_turtle.forward(200)
+    my_turtle.left(89)
+    moving = moving + 1
